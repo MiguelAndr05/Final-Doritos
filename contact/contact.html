@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doritos Website</title>
+    <link rel="stylesheet" href="contact.css"> <!-- Linking the CSS file for styling -->
+    <link rel="icon" href="Photos/Doritos_Logo_(2013) (1).png"> <!-- Setting the website favicon -->
+    
+    <script src="contact.js"></script> <!-- Linking the JavaScript file for functionality -->
+</head>
+<body>
+    <div id="header"></div> <!-- Creating a div for the header -->
+    
+    <nav class="NavBar"> <!-- Creating the navigation bar -->
+        <ul class="NavBarUL"> <!-- Creating the navigation bar -->
+            <li><a href="/main/index.html">Home</a></li> <!-- Linking the pages -->
+            <li><a href="/Products/products.html">Products</a></li> 
+            <li><a href="/About us/about.html">About us</a></li>
+            <li><a href="/contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+   
+    <p>If you want to explore now </p>
+    
+    <h1>Contact Us</h1>
+
+    <div class="emailContainer">
+        <form id="emailForm">
+            <div class="form-group"> <!-- Creating a form for the user to fill out -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div> 
+            <div class="form-group">
+                <label for="email">Email:</label> <!-- Creating a form for the user to fill out -->
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required maxlength="200"></textarea> <!-- Creating a form for the user to fill out -->
+            </div>
+            <div class="form-group"> <!-- Creating a form for the user to fill out -->
+                <button type="submit">Send Email</button> <!-- Creating a button for the user to submit the form -->
+            </div>
+        </form>
+    </div>
+
+
+    <h1>Socials</h1>
+    <h2>Join the crunch craze and follow us! </h2> <!-- Creating a div for the social media links -->
+    <div class="social-media-links"> <!-- Creating a div for the social media links -->
+        <a href="https://www.instagram.com/doritos"> <img src="/Photos/Instagram-Logo.png" alt="Instagram" class="Ig"></a> <!-- Creating a div for the social media links -->
+        <a href="https://www.facebook.com/doritos"> <img src="/Photos/Facebook-Logo.png" alt="Facebook" class="facebook"></a>
+        <a href="https://www.twitter.com/doritos"> <img src="/Photos/twitter-x-logo-8FD8E6C4FD-seeklogo.com.png" alt="Twitter" class="Twitter"></a>
+        <a href="https://www.pinterest.ca/fritolay/"> <img src="/Photos/Pinterest-logo.png" alt="YouTube" class="Pinterest"></a> <!-- Creating a div for the social media links -->
+    </div> 
+
+    <div id="footer"></div> <!-- Creating a div for the footer -->
+    <script src="/headersfooter.js"></script>
+</body>
+</html>

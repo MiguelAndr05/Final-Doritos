@@ -1,0 +1,211 @@
+
+/* Set background color and reset default margin for the body */
+body {
+    background-color: antiquewhite;
+    margin: 0; /* Reset default margin */
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Take up available space */
+    font-size: 5em;
+    font-weight: bold;
+    color: #ff9900;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid black hidden;
+}
+
+/* Styling for flex items */
+.flex-item {
+    flex: auto;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Styling for specific items */
+.item-1, .item-3, .item-5, .item-7 {
+    background-color: rgb(253, 210, 17);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 7px;
+    color: black;
+    height: 105px;
+    text-align: center;
+    font-size: 56px;
+}
+
+.item-2, .item-4, .item-6 {
+    flex: auto;
+    background-color: rgb(226, 138, 66);
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    height: 95px;
+    text-align: center;
+    font-size: 72px;
+}
+
+/* Styling for the main navigation bar */
+.mainNavBar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.mainNavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mainNavBar ul li {
+    padding-left: 30px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.mainNavBar ul li a {
+    text-decoration: none;
+    color: white; /* Set the text color to white */
+    padding: 14px 16px;
+    transition: color 0.5s;
+    font-family: cursive;
+}
+
+.mainNavBar ul li a:hover {
+    color: rgb(255, 0, 0);
+    transition: color 0.5s;
+}
+
+/* Styling for the "All-CHIP" section */
+.All-CHIP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    margin-left: 8em;
+    margin-right: 8em;
+    font-family: cursive;
+    margin-top: 50px;
+}
+
+/* Styling for the "orignal-taco-chip" section */
+.orignal-taco-chip {
+    color: drgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 2em;
+    border:  1px hidden;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction:column;
+}
+
+.orignal-taco-chip:hover {
+    scale: 1.2;
+    box-shadow: 0px 0px 20px rgb(255, 102, 0);
+    transition: 0.5s;
+}
+
+.orignal-taco-chip button:hover {
+    box-shadow: 0px 0px 20px rgb(255, 102, 0);
+}
+
+/* Styling for the "nacho-cheese-chip" section */
+.nacho-cheese-chip {
+    padding: 10px;
+    border-radius: 2em;
+    border:  1px hidden ;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nacho-cheese-chip:hover {
+    scale: 1.2;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+    transition: 0.5s;
+}
+
+.nacho-cheese-chip button:hover {
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
+/* Styling for the "cool-ranch-chip" section */
+.cool-ranch-chip {
+    padding: 10px;
+    border-radius: 2em;
+    border: 1px hidden ;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction:column;
+}
+
+.cool-ranch-chip:hover {
+    scale: 1.2;
+    box-shadow: 0px 0px 20px rgb(17, 0, 255);
+    transition: 0.5s;
+}
+
+.cool-ranch-chip button:hover {
+    box-shadow: 0px 0px 20px rgb(17, 0, 255);
+    text-decoration: none;
+}
+
+/* Styling for buttons */
+button {
+    text-decoration: none;
+    font-size: larger;
+    color: #fff9f9;
+    font-family: cursive;
+    background-color: #333 ;
+    border-radius: 2em;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    bottom: 0;
+    font-size: px;
+    position: absolute;
+}
+
+/* Styling for links */
+a {
+    text-decoration: none;
+    color: white; /* Set the text color to white */ 
+}

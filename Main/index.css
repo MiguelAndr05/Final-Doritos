@@ -1,0 +1,203 @@
+/* Resetting default margin and setting background color */
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+/* Container for flex items */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Take up available space */
+    font-size: 5em;
+    font-weight: bold;
+    color: #ff9900;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid black hidden;
+}
+
+/* Styling for flex items */
+.flex-item {
+    flex: auto;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Styling for specific items */
+.item-1, .item-3, .item-5, .item-7 {
+    background-color: rgb(253, 210, 17);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 7px;
+    color: black;
+    height: 105px;
+    text-align: center;
+    font-size: 56px;
+}
+
+.item-2, .item-4, .item-6 {
+    flex: auto;
+    background-color: rgb(226, 138, 66);
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    height: 95px;
+    text-align: center;
+    font-size: 72px;
+}
+
+/* Navigation bar styling */
+.navBarBlack {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigation list styling */
+.navBarUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Set the text color to white */
+    padding: 14px 16px;
+    transition: color 0.5s;
+    font-family: cursive;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* Main section styling */
+main section {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Styling for iframes */
+main section iframe {
+    transition: transform 0.2s ease-in;
+    cursor: pointer;
+}
+
+main section iframe:hover {
+    transform: scale(1.1);
+}
+
+/* Arrow styling for slideshow navigation */
+main section .arrow {
+    font-size: 0; /* Set font size to 0 */
+    color: transparent; /* Hide text content */
+    cursor: pointer;
+    margin-top: 10px;
+    position: absolute;
+    top: 30%;
+}
+
+main section .arrow.left,
+main section .arrow.right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    display: inline-block;
+    padding: 0;
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+main section .arrow.left {
+    border-width: 15px 25px 15px 0;
+    border-color: transparent #2c2c2c transparent transparent;
+    left: 15%;
+}
+
+main section .arrow.right {
+    border-width: 15px 0 15px 25px;
+    border-color: transparent transparent transparent #2c2c2c;
+    right: 15%;
+}
+
+main section .arrow:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+
+/* Slideshow styling */
+.slideshow-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideshow {
+    max-width: 50%;
+}
+
+.slides {
+    display: none;
+    width: 100%;
+}
+
+
+/* Add styling for the dynamic bar */
+.dynamic-bar {
+    display: flex;
+    align-items: center;
+    background-color: orange; /* Default color */
+}
+
+/* Adjust styling for the slideshow */
+.slideshow {
+    max-width: 50%;
+}
+
+/* Add styling for the slogan */
+.slogan {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+/* Additional styles for different background colors */
+.dynamic-bar.orange { background-color: orange; }
+.dynamic-bar.red { background-color: red; }
+.dynamic-bar.blue { background-color: blue; }
+
+
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}

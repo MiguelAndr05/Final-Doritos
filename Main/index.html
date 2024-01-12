@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doritos Website</title>
+    <!-- Link to external stylesheet and favicon -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Photos/Doritos_Logo_(2013) (1).png">
+</head>
+
+<body>
+    <!-- Header section with a flex container for logo letters -->
+    <div id="header"></div>
+    
+
+    <!-- Navigation bar with links to different sections -->
+    <div class="navBarBlack">
+        <nav class="NavBar">
+            <ul class="NavBarUL">
+                <li><a href="/main/index.html">Home</a></li>
+                <li><a href="/Products/products.html">Products</a></li>
+                <li><a href="/About us/about.html">About Us</a></li>
+                <li><a href="/contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Introduction to Doritos chips -->
+        <section>
+            <h2>Experience the bold and crunchy taste of Doritos chips</h2>
+            <img src="https://ibb.co/jb47NP8" alt="Doritos 1993 Ad" class="image">
+            <h3>Doritos Chips - 1993</h3>
+            <p>Our 1993 ad showcases the irresistible flavor that will leave you craving for more.
+                Grab a bag of Doritos today and satisfy your snack cravings!</p>
+        </section>
+
+        <!-- Commercial section with video, arrows, and bold flavors introduction -->
+        <section class="commercial-section">
+            <h2>Triangular Temptation Discover the Doritos Triangle Magic </h2>
+            <!-- Arrows for video navigation -->
+            <i class="arrow left" onclick="changeVideo(-1)"></i>
+            <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/G_PDRXDTgck" frameborder="0" allowfullscreen></iframe>
+            <i class="arrow right" onclick="changeVideo(1)"></i>
+
+            <!-- Introduction to bold flavors -->
+            <h1>Check out our bold flavors!</h1>
+
+            <!-- Dynamic bar with slideshow and slogan -->
+            <section class="dynamic-bar">
+                <div class="slideshow-container">
+                    <!-- Slides with adjusted width and height -->
+                    <div class="slideshow">
+                        <img class="slides" src="/Photos/Classic-dorito-bag.png" alt="Doritos Classic Flavor" style="width: 180px; height: 200px;">
+                        <img class="slides" src="/Photos/Doritos-Nacho-Cheese.png" alt="Doritos Nacho Cheese Flavor" style="width: 180px; height: 200px;">
+                        <img class="slides" src="/Photos/Doritos-Cool-Ranch.png" alt="Doritos Cool Ranch Flavor" style="width: 180px; height: 200px;">
+                    </div>
+                </div>
+                <!-- Container for slogan -->
+                <div class="slogan"></div>
+            </section>
+
+        </section>
+    </main>
+
+    <!-- Footer with copyright information -->
+    <div id="footer"></div>
+
+    <!-- JavaScript file inclusion for dynamic behavior -->
+    <script src="index.js"></script>
+    <script src="/headersfooter.js"></script>
+</body>
+
+</html>

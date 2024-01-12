@@ -1,0 +1,225 @@
+
+
+/* Styling for the body element */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the container element */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Take up available space */
+  font-size: 5em;
+  font-weight: bold;
+  color: #ff9900;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid black hidden;
+}
+
+/* Styling for the flex items */
+.flex-item {
+  flex: auto;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Styling for specific flex items */
+.item-1, .item-3, .item-5, .item-7 {
+  background-color: rgb(253, 210, 17);
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+  margin-top: 7px;
+  color: black;
+  height: 105px;
+  text-align: center;
+  font-size: 56px;
+}
+
+.item-2, .item-4, .item-6 {
+  flex: auto;
+  background-color: rgb(226, 138, 66);
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: cursive;
+  color: black;
+  height: 95px;
+  text-align: center;
+  font-size: 72px;
+}
+
+/* Styling for the navigation bar */
+.NavBar {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Styling for the navigation bar unordered list */
+.NavBarUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the navigation bar list items */
+.NavBarUL li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Styling for the navigation bar links */
+.NavBarUL li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: cursive;
+}
+
+/* Styling for the navigation bar link hover effect */
+.NavBarUL li a:hover {
+  color: #ff0000;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Styling for paragraphs */
+p {
+  text-align: center;
+  color: #555;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* Styling for the email container */
+.emailContainer {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px hidden #ccc;
+  border-radius: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #46a049;
+  box-shadow: 0 0 20px rgba(55, 204, 10, 0.986);
+}
+
+h1 {
+  border: #db0606 5px hidden;
+  background-color: #333;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(212, 131, 72);
+}
+
+h2{
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.social-media-links img {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+.Ig {
+  width: 95px;
+  height: 95px;
+  display: block;
+  margin-bottom: 10px;
+}
+.Ig:hover {
+  box-shadow: 0px 0px 40px #db5b06;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.4);
+  transition: transform 0.2s; 
+  border-radius: 1.89em;
+}
+
+.facebook,.Pinterest {
+  width: 115px;
+  height: 115px;
+  display: block;
+  margin-bottom: 10px;
+}
+.facebook:hover,.Pinterest:hover {
+  box-shadow: 0px 0px 40px #db5b06;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.4);
+  transition: transform 0.2s; 
+  border-radius: 8em;
+}
+.Twitter {
+  width: 113px;
+  height: 113px;
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.Twitter:hover {
+  box-shadow: 0px 0px 40px #db5b06;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.4 );
+  transition: transform 0.2s; 
+  border-radius: 4em;
+}
+
+footer {
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+  bottom: 0;
+}
